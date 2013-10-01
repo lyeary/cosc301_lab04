@@ -34,6 +34,9 @@ You can write/paste your answers (text and/or code) into the ``lab04.txt`` file 
     
 ..
 
+ANSWER: After the fork, the parent runs immediately, prints "Who are you? 150" then it returns and the child starts
+and prints "Or am I? 50" and does not return, but instead keeps running until we manually stop it.
+
 
 
 2.  Write an ill-tempered program that uses the ``fork`` system call in an
